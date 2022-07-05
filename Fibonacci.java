@@ -6,7 +6,7 @@ public class Fibonacci {
         } else return fibonacci(a-1) + fibonacci(a-2);
     }
 
-    public static long fibo(long z) {
+    public static long fibo(int z) {
 
         if (z == 0) {
             return 0;
